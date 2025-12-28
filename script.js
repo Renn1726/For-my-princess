@@ -12,7 +12,7 @@ botao.addEventListener("click", () => {
 });
 
 function iniciarContador() {
-  const inicio = new Date("2025-07-01T00:00:00");
+  const inicio = new Date("2025-11-29T00:00:00");
 
   function atualizarContador() {
     const agora = new Date();
@@ -24,7 +24,7 @@ function iniciarContador() {
 
     document.getElementById(
       "contador"
-    ).innerText = `Já se passaram ${dias} dias, ${horas} horas e ${minutos} minutos desde o dia que eu conheci a melhor pessoa da minha vida.`;
+    ).innerText = `Já se passaram ${dias} dias, ${horas} horas e ${minutos} minutos desde o dia que eu conheci a mulher da minha vida.`;
   }
 
   atualizarContador();
